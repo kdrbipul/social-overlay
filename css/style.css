@@ -1,0 +1,103 @@
+.team-box
+{
+    cursor: pointer;
+    border-radius: 5px !important;
+    width:350px;
+}
+.img{
+    width:350px;
+    height:auto;
+}
+
+.team-box:hover .social-icons a:first-child
+{
+    transform: translateY(25px);
+    opacity: 1;
+
+}
+
+.team-box:hover .social-icons a:nth-child(2)
+{
+    transform: translateY(25px);
+    opacity: 1;
+
+}
+
+.team-box:hover .social-icons a:nth-child(3)
+{
+    transform: translateY(25px);
+    opacity: 1;
+
+}
+
+.team-box:hover .social-icons a:last-child
+{
+    transform: translateY(25px);
+    opacity: 1;
+
+}
+
+
+.social-icons
+{
+    width: 140px;
+    position: absolute;
+    bottom: 150px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social-icons a
+{
+    width: 28px;
+    height: 28px;
+    display: block;
+    overflow: hidden;
+    background-color: #e71b24;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    padding: 6px;
+    color: white;
+    float: left;
+    margin: 3px;
+    transition: 0.3s;
+
+}
+
+.social-icons a:first-child
+{
+    background-color: #3b5998;
+    transition: .80s;
+    opacity: 0;
+}
+
+.social-icons a:nth-child(2)
+{
+    background-color: #00acee;
+    transition: .60s;
+    opacity: 0;
+}
+
+.social-icons a:nth-child(3)
+{
+    background-color:  #db4a39;
+    transition: .40s;
+    opacity: 0;
+}
+
+.social-icons a:last-child
+{
+    background-color: #0072b1;
+    transition: .20s;
+    opacity: 0;
+}
+
+.social-icons a:hover
+{
+    background-color: white;
+    color: #333;
+
+}
